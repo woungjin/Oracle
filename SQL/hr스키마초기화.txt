@@ -1,0 +1,13 @@
+1. sys as sysdba
+
+2. alter session set "_ORACLE_SCRIPT"=true;
+
+2. alter session set container=XEPDB1;
+
+3. @?/demo/schema/human_resources/hr_main.sql
+
+4. 
+파라미터1=hr
+파라미터2=users
+파라미터3=temp
+파라미터4=C:\app\본인폴더\product\18.0.0\dbhomeXE\demo\schema\log/
